@@ -1,0 +1,6 @@
+--Como los barrios de la base de datos son de bogota, el primer punto se realizo con el barrio santa fe.
+SELECT barrio,dni,name,primer_apellido,telefono,email,dirección,codigo_postal FROM cliente
+WHERE barrio='Santa Fe';
+--segundo punto
+SELECT sku,description FROM producto 
+WHERE price<15
