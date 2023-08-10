@@ -14,3 +14,8 @@ LEFT JOIN venta
 ON venta.dni_cliente = cliente.dni
 WHERE venta.dni_cliente IS NULL;
 -- quinto punto
+SELECT venta.*, venta_producto.id_venta,producto.sku,venta_producto.sku_producto,producto.name,producto.description,COUNT(DISTINCT producto.sku) AS different_products
+FROM producto 
+INNER JOIN venta_producto  ON producto.sku = venta_producto.sku_producto 
+INNER JOIN venta ON venta.id = venta_producto.id_venta
+GROUP BY venta.id,venta_producto.id_venta,producto.sku,venta_producto.sku_producto;
