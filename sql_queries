@@ -4,3 +4,13 @@ WHERE barrio='Santa Fe';
 --segundo punto
 SELECT sku,description FROM producto 
 WHERE price<15
+--tercer punto
+
+
+--cuarto punto 
+SELECT * 
+FROM cliente
+LEFT JOIN venta
+ON venta.dni_cliente = cliente.dni
+WHERE venta.dni_cliente IS NULL;
+-- quinto punto
