@@ -5,6 +5,14 @@ WHERE barrio='Santa Fe';
 SELECT sku,description FROM producto 
 WHERE price<15
 --tercer punto
+SELECT cliente.dni,cliente.name,venta_producto.cantidad,producto.description FROM cliente
+JOIN venta
+ON cliente.dni = venta.dni_cliente 
+JOIN venta_producto 
+ON venta.id = venta_producto.id_venta 
+JOIN producto  
+ON venta_producto.sku_producto = producto.sku 
+WHERE venta_producto.cantidad > 10
 
 
 --cuarto punto 
