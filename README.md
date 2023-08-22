@@ -2,7 +2,7 @@
 
 <h1>postgresql Project</h1>
 <div align="center">
-<img src="/diagrama_relacional.png" style="width:50%;height:30%;" >
+<img src="/diagrama_relacional.png" style="width:70%;height:30%;" >
 </div>
 The sql mini project is a project where an api is created from scratch, populated with data, and then several actions are performed to gather information
 <h2>Content</h2>
