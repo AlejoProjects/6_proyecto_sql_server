@@ -1,7 +1,7 @@
 <article class="markdown-body entry-content container-lg" itemprop="text"><h1 tabindex="-1" dir="auto">
 
 <h1>postgresql Project</h1>
-<img src="/diagrama_relacional.png" style="height:50%;">
+<img src="/diagrama_relacional.png" style="height:30%;">
 The sql mini project is a project where an api is created from scratch, populated with data, and then several actions are performed to gather information
 <h2>Content</h2>
 The relational database structure graphs  are include as pictures that explain the database structure.
