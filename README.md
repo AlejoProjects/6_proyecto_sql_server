@@ -21,25 +21,25 @@ The actions implemented are present as postgresql actions in order to gather the
 
 
 <h2>Requirements</h2>
-1. **Clone the Repository:** Use the following command to clone the repository to your local machine:
+1. Clone the Repository:** Use the following command to clone the repository to your local machine:
    ```
    git clone
    ```
 
-2. **Install any dependencies 
+2. Install any dependencies 
    ```
     npm i 
    ```
 
-3. **run the scripts
+3. run the scripts
    ```
     npm run  knex
     npm run knex_migrations
    ```
-4.**Run the script
-  ```
+4.Run the script
+    ```
     node server.js
-  ```
+    ```
 
     
 
