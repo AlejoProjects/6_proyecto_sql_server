@@ -1,0 +1,1 @@
+Basicamente los controllers son los que contienen la funcionalidad 
