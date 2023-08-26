@@ -7,7 +7,18 @@ const database = require('knex')(connection);
     return database('cliente')
     .insert(client);
  };
+ const getClient = (client) => {
+   console.log('client',client)
+   return database('cliente')
+   .select({id_cliente:client});
+};
+const getAllClients = (client) => {
+   return database('cliente');
+};
+
 
  module.exports = {
-    createClient
+    createClient,
+    getClient,
+    getAllClients
  };
