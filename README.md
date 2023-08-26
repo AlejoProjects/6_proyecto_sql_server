@@ -38,8 +38,7 @@ The actions implemented are present as postgresql actions in order to gather the
    ```
 4.Run the script:
  ```
-    
-      node server.js
+    node server.js
  ```
  
 
