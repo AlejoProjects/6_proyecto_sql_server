@@ -20,7 +20,7 @@ The actions implemented are present as postgresql actions in order to gather the
 </ul>
 
 
-<h3>Requirements</h3>
+<h2>Requirements</h2>
 1. **Clone the Repository:** Use the following command to clone the repository to your local machine:
    ```
    git clone
