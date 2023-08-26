@@ -7,8 +7,8 @@ The sql mini project is a project where an api is created from scratch, populate
 The relational database structure graphs  are include as pictures that explain the database structure.
 The actions implemented are present as postgresql actions in order to gather the information needed.
 <h2>stack</h2>
-<ul>
 Javascript:
+<ul>
 <li>Express</li>
 <li>Knex</li>
 </ul>
