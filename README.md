@@ -31,12 +31,12 @@ The actions implemented are present as postgresql actions in order to gather the
     npm i 
    ```
 
-3. run the scripts
+3. run the npm scripts:
    ```
     npm run  knex
     npm run knex_migrations
    ```
-4.Run the script:
+4.Run the js script:
   ```
     node server.js
   ```
