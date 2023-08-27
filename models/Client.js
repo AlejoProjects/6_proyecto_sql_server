@@ -8,9 +8,9 @@ const database = require('knex')(connection);
     .insert(client);
  };
  const getClient = (client) => {
-   console.log('client',client)
+   console.log('cliente',client)
    return database('cliente')
-   .select({id_cliente:client});
+   .where({dni:client});
 };
 const getAllClients = (client) => {
    return database('cliente');
