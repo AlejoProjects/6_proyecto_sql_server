@@ -1,12 +1,15 @@
 const express = require('express');
 
-const router = express.Router();//yo le digo a donde va a ir, redireccionar el contenido
+const router = express.Router();
+
+const { SaleController } = require('../controllers');
+
 
 //crear
-router.post('/', (req,res) => res.send({message: " Se creó"}));
+router.post('/', SaleController.createSale);
 //leer
-router.get('/', (req,res) => res.send({message: " Se leen todos"}));
-router.get('/:id', (req,res) => res.send({message: " Se leen uno"}));
+router.get('/', );
+router.get('/:id',);
 //actualizar
 router.put('/:id', (req,res) => res.send({message: " Se sustituyp"}));
 router.patch('/:id', (req,res) => res.send({message: " Se modificó"}));

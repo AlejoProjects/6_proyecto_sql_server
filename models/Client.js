@@ -10,10 +10,16 @@ const database = require('knex')(connection);
  const getClient = (client) => {
    console.log('cliente',client)
    return database('cliente')
-   .where({dni:client});
+   .where({dni:client})
+   .then((respuesta) => {
+      return respuesta.message[0];
+   });
 };
+/*Or const getOneClient = (id) => {
+   return database.select('*').from('cliente').where('dni',id);
+} */
 const getAllClients = (client) => {
-   return database('cliente');
+   return database.select('*').from('cliente');
 };
 
 

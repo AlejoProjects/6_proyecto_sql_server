@@ -14,7 +14,7 @@ const database = require('knex')(connection);
    .where({sku:product});
 };
 const getAllProducts = (producto) => {
-   return database('producto');
+   return database.select('*').from('producto');
 };
 
 
