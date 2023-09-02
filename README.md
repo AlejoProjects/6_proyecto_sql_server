@@ -4,7 +4,7 @@
 <h1>postgresql Project</h1>
 <img src="./diagramas/diagrama_relacional.png" style="height:50%;width:70%"/>
 
-The sql mini project is a project where an api is created from scratch, populated with data, and then several actions are performed to gather information. All of this is acomplished with the express library
+The sql mini project is a project where an api is created from scratch, populated with data, and then several actions are performed to gather information. All of this is acomplished with the express library.(The mvc model is used.)
 <h2>Content</h2>
 The relational database structure graphs  are include as pictures that explain the database structure.
 The actions implemented are present as postgresql actions in order to gather the information needed.
